@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.shop.it.AddProductActivity" >
+
+    <item
+        android:id="@+id/myPrices"
+        android:orderInCategory="50"
+        android:title="@string/myprices"
+        app:showAsAction="never"/>
+
+    
+    <item
+        android:id="@+id/viewAllPrices"
+        android:orderInCategory="100"
+        android:title="@string/viewallprices"
+        app:showAsAction="never"/>
+    
+    
+    <item
+        android:id="@+id/addProduct"
+        android:orderInCategory="10"
+        android:title="@string/addproduct"
+        app:showAsAction="never"/>
+    
+</menu>

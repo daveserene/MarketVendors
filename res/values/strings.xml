@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShopIt</string>
+    <string name="vendortitle">Your Name:</string>
+    <string name="markettitle">Market:</string>
+    <string name="commoditytitle">Commodity:</string>
+    <string name="pricetitle">Price:</string>
+    <string name="unittitle">Unit:</string>
+
+    <string name="addproduct">Add</string>
+    <string name="myprices">MyPrices</string>
+    <string name="viewallprices">ViewAll</string>
+    
+    <string name="btnAdd">Add</string>
+    
+    <string name="hello_world">Welcome, please enter your credentials to use your account!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+</resources>

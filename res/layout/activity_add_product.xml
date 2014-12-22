@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="true"
+    android:layout_margin="10dp"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="outsideInset"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:id="@+id/addProductLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        
+        <TextView
+            android:id="@+id/addCommodityTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/commoditytitle"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Spinner
+            android:id="@+id/addCommodityList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/commodityItems"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp" 
+            android:paddingRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/addPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pricetitle"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+        </TextView>
+        
+        <EditText
+            android:id="@+id/addPriceValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingBottom="15dp"
+            android:paddingLeft="10dp" 
+            android:paddingRight="10dp"
+            />
+        
+        <TextView
+            android:id="@+id/addUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unittitle"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Spinner
+            android:id="@+id/addUnitList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/unitItems"
+            android:paddingBottom="40dp"
+            android:paddingLeft="10dp" 
+            android:paddingRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/saveCommodityButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnAdd" />
+        
+    </LinearLayout>
+
+</ScrollView>

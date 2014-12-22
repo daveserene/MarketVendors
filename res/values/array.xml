@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="marketItems">
+        <item>Wandegeya</item>
+        <item>Nakawa</item>
+        <item>Owino</item>
+        <item>Bugolobi</item>
+        <item>Kaleerwe</item>
+    </string-array>
+    
+    <string-array name="commodityItems">
+        <item>Beans</item>
+        <item>Rice</item>
+        <item>Posho</item>
+        <item>Groundnuts</item>
+        <item>Peas</item>
+        <item>Matooke</item>
+        <item>Pineapples</item>
+        
+    </string-array>
+    
+    
+    <string-array name="unitItems">
+        <item>per Kg</item>
+        <item>per Item</item>
+        <item>per Bunch</item>
+        
+    </string-array>
+    
+    <string-array name="filterorder">
+        <item>Least price</item>
+        <item>Highest price</item>
+        
+    </string-array>
+</resources>
