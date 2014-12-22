@@ -15,3 +15,9 @@ The app has 5 main pages:
 ===>View all commodities
     Load all commodities from all vendors in different markets of Kampala. This page provides a download button for all commodities to the local database. We clear the local database after every download.
     
+====Web server Database details
+    $servername = "localhost";
+    $username = "vendor";
+    $password = "vendor";
+    $dbname = "shopIt";
+    
